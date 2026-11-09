@@ -181,9 +181,9 @@ Dokumentasi berikut menunjukkan tampilan website dan fitur-fitur utama PlayZone.
 
 | Dokumentasi                | File                                      |
 | -------------------------- | ----------------------------------------- |
-| Tampilan halaman Games     | `Dokumentasi/Screenshot/01_Games.png`     |
-| Tampilan halaman Customers | `Dokumentasi/Screenshot/02_Customers.png` |
-| Tampilan halaman Rentals   | `Dokumentasi/Screenshot/03_Rentals.png`   |
+| Tampilan halaman Games     | [01_Games.png](Dokumentasi/Screenshot/01_Games.png)   |
+| Tampilan halaman Customers | [02_Customers.png](Dokumentasi/Screenshot/02_Customers.png) |
+| Tampilan halaman Rentals   | [03_Rentals.png](Dokumentasi/Screenshot/03_Rentals.png)   |
 
 ## Video
 
