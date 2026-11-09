@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #2d3748;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 22px 16px;
+    background-color: #222b38;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 6px;
+}
+
+header p {
+    margin: 0;
+    color: #d7dee8;
+}
+
+nav {
+    padding: 13px 16px;
+    background-color: #344255;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+main {
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 24px;
+    overflow-x: auto;
+    border: 1px solid #e1e6ed;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 12px rgba(30, 45, 65, 0.06);
+}
+
+h2 {
+    margin: 0 0 18px;
+    color: #26364a;
+}
+
+main > p {
+    margin: 0 0 16px;
+    padding: 11px 14px;
+    border: 1px solid #f1b8b8;
+    border-radius: 5px;
+    background-color: #fff1f1;
+}
+
+form:not([style*="display:inline"]) {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 20px;
+    padding: 20px 24px;
+    border: 1px solid #e1e6ed;
+    border-radius: 8px;
+    background-color: #f8fafc;
+}
+
+form:not([style*="display:inline"]) label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+input:not([type="hidden"]),
+select {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 9px 10px;
+    border: 1px solid #cbd3dd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2d3748;
+    font: inherit;
+}
+
+input:focus,
+select:focus {
+    border-color: #4a78b8;
+    outline: 2px solid rgba(74, 120, 184, 0.15);
+}
+
+button {
+    margin: 8px 3px 4px 0;
+    padding: 9px 13px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #3569a8;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover {
+    background-color: #28578f;
+}
+
+button[name^="hapus"] {
+    background-color: #c74747;
+}
+
+button[name^="hapus"]:hover {
+    background-color: #a93636;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 11px 12px;
+    border: 1px solid #dce2e9;
+    text-align: center;
+}
+
+th {
+    background-color: #344255;
+    color: #fff;
+}
+
+tbody tr:nth-child(even),
+table tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+td a {
+    margin-right: 8px;
+    color: #285f9e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 22px 0;
+    border: 0;
+    border-top: 1px solid #e1e6ed;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 12px;
+        padding: 16px;
+    }
+
+    nav a {
+        margin: 4px 8px;
+    }
+
+    input:not([type="hidden"]),
+    select {
+        width: 100%;
+        min-width: 0;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
